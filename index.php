@@ -5,8 +5,107 @@
     <title>NIGHT</title>
 </head>
 <body style="background-color:#FAF3D5;">
+  <nav>
+  	<ul>
+  		<li><a href="index.html"> Inicio</a></li>
+  		<li><a href="nuevaC.html"> Nueva colección</a></li>
+        <li><a href="#"> Hombre</a>
+  			<ul>
+  				<li><a href="#"> Camiseta</a></li>
+  				<li><a href="#"> Camisa</a></li>
+  				<li><a href="#"> Patalones</a></li>
+  				<li><a href="#"> Bermudas</a></li>
+  			</ul>
+
+  		</li>
+  		<li><a href="#"> Mujer</a>
+  			<ul>
+  				<li><a href="#"> Camiseta</a></li>
+  				<li><a href="#"> Camisa</a></li>
+  				<li><a href="#"> Patalones</a></li>
+  				<li><a href="#"> Faldas</a></li>
+  			</ul>
+
+        </li>
+        <li><a href="https://co.pinterest.com/smonsalvegomez/boards/"> Mis ideas</a>   
+  </ul>
+</nav>
+  		  
+<style type="text/css">
+	nav{
+		background-color: black;
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+		height: 5rem;
+
+	}
+	nav ul{
+		float: left;
+		display: flex;
+
+	}
+	nav li ul{
+		float: left;
+		list-style: none;
+		position: relative;
+
+
+	}
+	nav ul li a{
+		display: block;
+		padding: 0 2rem;
+		line-height: 5rem;
+		color: white;
+		text-decoration: none;
+		
+	}
+	nav ul li ul{
+		display: none;
+		position: absolute;
+		background-color: black;
+		boder: 1px ;
+		text-align: center;
+
+	}
+
+	nav ul li:hover ul {
+		display: block;
+	}
+	nav ul li ul li{
+		width: 100%;
+	}
+	nav ul li ul li a:hover {
+		background-color: gray;
+
+
+	}
+
+	div#banner{
+		width: 100%;height: 300px;
+		
+	}
+	img#img_banner{
+		display: block;
+		margin: auto;
+		width: 100%;
+		max-width: 1200px;
+		min-width: 500px;
+		height: 300px;
+	}
+
+</style>
+
 <center>    
-<table><tr><h1>Aqui va el baner(header)</h1></tr></table>
+ <div id="banner"> 
+ 	<img src="imge/fas.png" id="img_banner">
+</div> <br>
+
+<br>
+<br>
+
+
+<br>
 <table width="90%" border="1">
     <tr>
     <th width="35%"><p><h2>Presentación:</h2><br>
@@ -27,7 +126,7 @@
 </center>
 <center><h1>...R   E   G   I   S   T   R   A   T   E...</h1>
 
-<table width="30%" style="background-color:#E6E4DA;">
+<width width="30%" style="background-color:#E6E4DA;">
 
 <tr>
     <th>    
@@ -36,26 +135,31 @@
 
     </th>    
     <th>
+        <br>
         <label>Apellido:</label><br>
         <input type="text" name="apellido"><br>
     </th>
 </tr>
 <tr>
     <th>
+        <br>
         <label>Edad:</label><br>
         <input type="number" name="edad"><br>
     </th>
     <th>
+        <br>
         <label>Telefono:</label><br>
         <input type="tel" name="telefono" pattern="[0-9]{3}[0-9]{7}"><br>
     </th>
 </tr>
 <tr>
     <th>
+        <br>
         <label>Correo:</label><br>
         <input type="email" name="correo"><br>
     </th>
     <th>
+        <br>
         <label>Cuidad:</label><br>
         <select  name="ciudad">
             <option value="seleccioná">Seleccioná</option>
@@ -127,10 +231,12 @@
 </tr>
 <tr>
     <th>
+        <br>
         <label>Contraseña:</label><br>
         <input type="password" name="contraseña" ><br>
     </th>
     <th>
+        <br>
         <label>Genero:</label><br>
         <select  name="genero">
             <option value="femenino">Femenino</option>
@@ -141,13 +247,24 @@
 </tr>
 <tr>
     <th>
+        <br>
         <input type="submit" value="Enviar"><br>
     </th>
     <th>
+        <br>
         <input type="reset"><br>
     </th>
 </tr>
-</table></center>
+<tr>
+    <th>
+        <br>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F432807190808968%2Fposts%2F603459547077064%2F%3Fsfnsn%3Dscwshmo%26extid%3DUNNxaOAsZOPjvCeF&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    </th>
+</tr>
+</width></center>
+
+
+
 
 
 <footer><center><h3>NIGHT® COPYRIGHT 2020</center></h3></footer>
