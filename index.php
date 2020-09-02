@@ -124,7 +124,7 @@
 
 </table>
 </center>
-<center><h1>...R   E   G   I   S   T   R   A   T   E...</h1>
+<center><h1>~ R   E   G   I   S   T   R   A   T   E ~</h1>
 
 <width width="30%" style="background-color:#E6E4DA;">
 
