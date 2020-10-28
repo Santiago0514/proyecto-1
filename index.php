@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>NIGHT</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <title>NIGHTª</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -24,36 +24,118 @@
       <li class="nav-item">
         <a class="nav-link" href="nuevaC.html">Nueva colección</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <li class="nav-item">
+        <a class="nav-link " href="hombre.html" >
           Hombre
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Camisa</a>
-          <a class="dropdown-item" href="#">Camiseta</a>
-          <a class="dropdown-item" href="#">Bermudas</a>
-        </div>
       </li>
-       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <li class="nav-item ">
+        <a class="nav-link " href="mujer.html" >
           Mujer
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Camisa</a>
-          <a class="dropdown-item" href="#">Camiseta</a>
-          <a class="dropdown-item" href="#">faldas</a>
-        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="https://co.pinterest.com/smonsalvegomez/boards/ tabindex="-1 aria-disabled="true">Mis ideas</a>
+        <a class="nav-link" href="https://co.pinterest.com/smonsalvegomez/boards/ tabindex="-1 aria-disabled="true">Más ideas</a>
+
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Iniciar Sesión
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Correo Electronico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">No compartas tus datos personales.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+      </div>
+      </div>
   </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+  Registrate
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registrate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <form>
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nombres">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Apellidos">
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="inputPassword6">Correo Electrónico</label>
+            <input type="email" id="inputPassword6" class="form-control mx-sm-0" >
+            
+          </div>
+
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Contraseña</label>
+            <div class="col-sm-12">
+              <input type="password" class="form-control" id="inputEmail3" aria-describedby="passwordHelpInline">
+              <small id="passwordHelpInline" class="text-muted">
+                Mínimo 8 carácteres.
+              <input type="password" class="form-control" id="inputEmail3" placeholder="Verifíque su contraseña">  
+              </small>
+              <br>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+            
+            
+            </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div><!-- div menu -->
 </nav>
+
+<!-- banner imagenes -->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -75,50 +157,140 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-<table class="table">
+<div class="container"> 
+<table class="table mt-3">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">Presentación:</th>
-      <th scope="col">Expectativas:</th>
-      <th scope="col">¿A quién va dirigida?</th>
+      <th scope="col"><center>Presentación:</center></th>
+      <th scope="col"><center>Expectativas:</center></th>
+      <th scope="col"><center>¿A quién va dirigida?</center></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>
+      <th width="100" height="50">
       <p>En NIGHT® estamos dispuestos a llevar tu imaginación a la realidad,
       realizando cualquier tipo de estampación en <br>la prenda que quieras.
       </p></th>
-      <th>
+      <th width="100" height="50">
       <p>Algunos de nuestros desarrolladores poseen conocimientos en administración,
       por ello queremos crear una empresa totalmente virtual, y en lo más posible
       hacer este proyecto realidad.
       </p></th>
-      <th>
+      <th width="50">
       <p>A TODO EL PUBLICO EN GENERAL.
       </p></th>
   </tr>
-    
+
   </tbody>
 </table>
-<table>
-  <tr>
-    <th width="60%"><div class="container-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus justo ante, congue luctus mi a, rutrum venenatis nisl. Sed iaculis consectetur neque,
-      sed tincidunt eros porttitor eu. In ac vehicula mauris, vitae dictum velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ut porttitor neque. Curabitur tempus turpis diam, id laoreet nibh viverra ut. Aliquam efficitur, sapien vitae ullamcorper ornare, ante elit malesuada eros, ut cursus nisl dui vel nibh.</div>
-    </th>
-    <th width="40%">  
-      <div class="embed-responsive embed-responsive-16by9">
-    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F432807190808968%2Fposts%2F603459547077064%2F%3Fsfnsn%3Dscwshmo%26extid%3DUNNxaOAsZOPjvCeF&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-  </div></th>
-  </tr>
-</table>
-    
 
+<div class="row">
+  <div class="col-sm-6">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus justo ante, congue luctus mi a, rutrum venenatis nisl. Sed iaculis consectetur neque,
+      sed tincidunt eros porttitor eu. In ac vehicula mauris, vitae dictum velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ut porttitor neque. Curabitur tempus turpis diam, id laoreet nibh viverra ut. Aliquam efficitur, sapien vitae ullamcorper ornare, ante elit malesuada eros, ut cursus nisl dui vel nibh.
+
+  </div>
+  <div class="col-sm-6">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F432807190808968%2Fposts%2F603459547077064%2F%3Fsfnsn%3Dscwshmo%26extid%3DUNNxaOAsZOPjvCeF&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </div>
+
+</div>
+</div> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
+
+<!-- Footer -->
+<footer class="page-footer font-small bg-dark pt-4">
+
+  <!-- Footer Links -->
+  <font color="white">
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Contactanos</h5>
+        <p>Aqui tienes algunos metodos de comunicación para que puedas hacer algunos pedidos personalizados o
+          algun reclamo que tengas de nuetros servicios.
+
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Redes Sociales</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Facebook</a>
+          </li>
+          <li>
+            <a href="#!">Instagram</a>
+          </li>
+          <li>
+            <a href="#!">WhatsApp</a>
+          </li>
+          <li>
+            <a href="#!">Gmail</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Numeros y Direcciones</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            Tel: 286 5454
+          </li>
+          <li>
+            Cel: 340 4495171
+          </li>
+          <li>
+            Dirección: Calle 78 sur # 58-61
+          </li>
+          <li>
+            Dirección: Calle 98 no 69-59
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="index.html"> NIGHTª.com</a>
+  </div>
+  <!-- Copyright -->
+</font>
+
+</footer>
+<!-- Footer -->
+
 </html>
