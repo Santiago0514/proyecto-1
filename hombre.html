@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="icon" type="image/png" href="images/logo.jpeg">
     <title>NIGHTª</title>
   </head>
   <body>
@@ -22,7 +23,7 @@
             <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="nuevaC.html">Nueva colección</a>
+            <a class="nav-link" href="nuevaC.html">Catalogo de productos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="hombre.html" >
@@ -71,7 +72,7 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
               </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button class="btn btn-primary" id="Iniciarsesion" style="color: white"> Enviar </button>
             </form>
     
           </div>
@@ -99,7 +100,7 @@
             <form>
               <div class="row">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Nombres">
+                  <input type="text" class="form-control"id="nombre" name="nombre" placeholder="Nombres" >
                 </div>
                 <div class="col">
                   <input type="text" class="form-control" placeholder="Apellidos">
@@ -121,7 +122,7 @@
                   <input type="password" class="form-control" id="inputEmail3" placeholder="Verifíque su contraseña">  
                   </small>
                   <br>
-                  <button type="submit" class="btn btn-primary">Enviar</button>
+                  <button class="btn btn-primary" id="registro" style="color: white"> Enviar </button>
                 </div>
                 
                 
@@ -161,7 +162,8 @@
       <div class="card-body">
         <h5 class="card-title">CLASSIC VOL.2</h5>
         <p class="card-text">Pantalón hombre clasico</p>
-        <button type="button" class="btn btn-dark">COMPRAR</button>
+        <h6 class="card-title">Precio: $ 50.000</h6>
+        <button class="btn btn-primary" id="alerta" style="color: white"> COMPRAR </button>
       </div>
     </div>
   </div>
@@ -171,7 +173,8 @@
       <div class="card-body">
         <h5 class="card-title">FASHIONABLE</h5>
         <p class="card-text">Falda larga con estampado amarillo.</p>
-        <button type="button" class="btn btn-dark">COMPRAR</button>
+        <h6 class="card-title">Precio: $ 50.000</h6>
+        <button class="btn btn-primary" id="alerta2" style="color: white"> COMPRAR </button>
       </div>
     </div>
   </div>
@@ -181,7 +184,8 @@
       <div class="card-body">
         <h5 class="card-title">MODERN</h5>
         <p class="card-text">Buzo beige corto con estampado</p>
-        <button type="button" class="btn btn-dark">COMPRAR</button>
+        <h6 class="card-title">Precio: $ 50.000</h6>
+        <button class="btn btn-primary" id="alerta3" style="color: white"> COMPRAR </button>
       </div>
     </div>
   </div>
@@ -191,7 +195,8 @@
       <div class="card-body">
         <h5 class="card-title">CLASSIC</h5>
         <p class="card-text">Camiseta corta negra estampada.</p>
-        <button type="button" class="btn btn-dark">COMPRAR</button>
+        <h6 class="card-title">Precio: $ 50.000</h6>
+        <button class="btn btn-primary" id="alerta4" style="color: white"> COMPRAR </button>
       </div>
     </div>
   </div>
@@ -201,7 +206,8 @@
       <div class="card-body">
         <h5 class="card-title">FASHIONABLE VOL.2</h5>
         <p class="card-text">Conjunto chaleco/falda mujer..</p>
-        <button type="button" class="btn btn-dark">COMPRAR</button>
+        <h6 class="card-title">Precio: $ 50.000</h6>
+        <button class="btn btn-primary" id="alerta5" style="color: white"> COMPRAR </button>
       </div>
     </div>
   </div>
@@ -211,13 +217,13 @@
       <div class="card-body">
         <h5 class="card-title">FASHIONABLE</h5>
         <p class="card-text">Camiseta blanca estampada.</p>
-        <button type="button" class="btn btn-dark">COMPRAR</button>
+        <h6 class="card-title">Precio: $ 50.000</h6>
+        <button class="btn btn-primary" id="alerta6" style="color: white"> COMPRAR </button>
       </div>
     </div>
   </div>
 </div>
 </div></div>
-</body>
 
 <!-- Footer -->
 <footer class="page-footer font-small bg-dark pt-4">
@@ -307,5 +313,16 @@
 
 </footer>
 <!-- Footer -->
+
+
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Javascript Propio-->
+<script type="text/javascript" src="js/botones.js"></script>
+
+</body>
+
 
 </html>
