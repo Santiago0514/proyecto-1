@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="icon" type="image/png" href="images/logo.jpeg">
     <title>NIGHTª</title>
   </head>
   <body>
@@ -22,7 +23,7 @@
         <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="nuevaC.html">Nueva colección</a>
+        <a class="nav-link" href="nuevaC.html">Catalogo de productos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="hombre.html" >
@@ -71,7 +72,7 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button class="btn btn-primary" id="Iniciarsesion" style="color: white"> Enviar </button>
         </form>
 
       </div>
@@ -99,7 +100,7 @@
         <form>
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Nombres">
+              <input type="text" class="form-control"id="nombre" name="nombre" placeholder="Nombres" >
             </div>
             <div class="col">
               <input type="text" class="form-control" placeholder="Apellidos">
@@ -121,7 +122,8 @@
               <input type="password" class="form-control" id="inputEmail3" placeholder="Verifíque su contraseña">  
               </small>
               <br>
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              
+              <button class="btn btn-primary" id="registro" style="color: white"> Enviar </button>
             </div>
             
             
@@ -157,7 +159,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<div class="container"> 
+<div class="container">
 <table class="table mt-3">
   <thead class="thead-dark">
     <tr>
@@ -178,7 +180,7 @@
       hacer este proyecto realidad.
       </p></th>
       <th width="50">
-      <p>A TODO EL PUBLICO EN GENERAL.
+      <p> Esta dirigida para los jovenes.
       </p></th>
   </tr>
 
@@ -190,21 +192,30 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus justo ante, congue luctus mi a, rutrum venenatis nisl. Sed iaculis consectetur neque,
       sed tincidunt eros porttitor eu. In ac vehicula mauris, vitae dictum velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ut porttitor neque. Curabitur tempus turpis diam, id laoreet nibh viverra ut. Aliquam efficitur, sapien vitae ullamcorper ornare, ante elit malesuada eros, ut cursus nisl dui vel nibh.
 
+      <hr>
+      <div class="row">
+        <div class="col">
+          <p> Conjunto 1: </p>
+          <img src="images/6.PNG" width="100%" id="cambioimg">
+        </div>
+        <div class="col">
+          <p> Conjunto 2: </p>
+          <img src="images/coleccion5.jpg" width="100%" id="cambioimg1">
+        </div>
+      </div>
+      
   </div>
   <div class="col-sm-6">
-    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F432807190808968%2Fposts%2F603459547077064%2F%3Fsfnsn%3Dscwshmo%26extid%3DUNNxaOAsZOPjvCeF&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F432807190808968%2Fposts%2F603459547077064%2F%3Fsfnsn%3Dscwshmo%26extid%3DUNNxaOAsZOPjvCeF&tabs=timeline&width=400&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
   </div>
 
 </div>
 </div> 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
 
-<!-- Footer -->
+  
+
+ 
+  <!-- Footer -->
 <footer class="page-footer font-small bg-dark pt-4">
 
   <!-- Footer Links -->
@@ -294,3 +305,13 @@
 <!-- Footer -->
 
 </html>
+
+
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- Javascript Propio-->
+  <script type="text/javascript" src="js/pincipal.js"></script>
+
+</body>
